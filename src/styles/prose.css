@@ -1,0 +1,11 @@
+@layer base {
+  .prose a {
+    @apply text-primary underline hover:text-primary/80;
+  }
+  .prose pre {
+    @apply bg-gray-800 text-white p-4 rounded overflow-x-auto;
+  }
+  .prose code {
+    @apply bg-gray-200 text-red-600 px-1 py-0.5 rounded;
+  }
+}
